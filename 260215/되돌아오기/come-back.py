@@ -17,7 +17,6 @@ dy = [1, 0, -1, 0]
 
 x, y = 0, 0
 
-cur_pos = []
 cnt = 0
 
 for i in range(N):
