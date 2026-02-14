@@ -17,7 +17,7 @@ cur_dirs = directions[d]
 
 for i in range(t):
     nr, nc = r + dr[cur_dirs], c + dc[cur_dirs]
-    if 1 <= nr <= n and 1 <= nc <= n:
+    if 1 <= nr <= n and 1 <= nc <= n:       # 범위 조심할 것
         r, c = nr, nc
     else:
         cur_dirs = 3 - cur_dirs
