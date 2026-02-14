@@ -1,6 +1,5 @@
 
-# 🚀 CodeTree TIL (Today I Learned)
-**"어제보다 효율적인 코드를 고민합니다."**
+# CodeTree TIL (Today I Learned)
 
 
 ### 🛠 Technologies & Tools
