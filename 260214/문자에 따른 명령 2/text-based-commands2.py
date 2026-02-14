@@ -3,7 +3,7 @@ cmd = list(map(str, input().rstrip()))
 # Please write your code here.
 def dirs(s, dir_num):
     if s == 'L':
-        dir_num = (dir_num - 1) % 4
+            dir_num = (dir_num + 3) % 4
     elif s == 'R':
         dir_num = (dir_num + 1) % 4
     return dir_num
