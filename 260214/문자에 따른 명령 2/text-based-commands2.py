@@ -8,7 +8,7 @@ def dirs(s, dir_num):
         dir_num = (dir_num + 1) % 4
     return dir_num
 
-dir_num = 4
+dir_num = 0 # 4로 하면 런타임에러남
 
 # D =북  동  남  서
 dx = [0, 1, 0, -1]
