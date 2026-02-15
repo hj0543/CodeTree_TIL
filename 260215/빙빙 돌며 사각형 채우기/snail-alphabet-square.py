@@ -26,6 +26,8 @@ for i in range(n*m*2):
     if 0 <= nr < n and 0 <= nc < m and grid[nr][nc] == 0:
         r, c = nr, nc
         number += 1
+        if number == 91:
+            number = 65
     else:
         input_dir += 1
 
